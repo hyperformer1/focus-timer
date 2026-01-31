@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>1-Minuten-Fokus</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>1-Minuten-Fokus</h1>
+
+    <input
+      id="taskInput"
+      type="text"
+      placeholder="Was machst du jetzt?"
+    />
+
+    <div id="timer">60</div>
+
+    <button id="startBtn">Start 1 Minute</button>
+
+    <div id="done" class="hidden">
+      <p>Nice. Noch 1 Minute?</p>
+      <button id="againBtn">Ja</button>
+      <button id="resetBtn">Nein</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
